@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item android:id="@+id/nav_account"
+        android:title="Имя аккаунта"
+        />
+
+    <item android:id="@+id/nav_rules"
+        android:title="Правила"
+        />
+
+    <item android:id="@+id/nav_setting"
+        android:title="Настройки"
+        />
+
+    <item android:id="@+id/nav_share"
+        android:title="Поделиться"
+        />
+
+    <item android:id="@+id/nav_support"
+        android:title="Поддержать игру"
+        />
+
+    <item android:id="@+id/nav_contacts"
+        android:title="Контакты"
+        />
+
+    <item android:id="@+id/nav_logout"
+        android:title="Выйти"
+        />
+
+</menu>

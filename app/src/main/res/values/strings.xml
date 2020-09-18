@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AppSurvivors</string>
+    <string name="header">ЯДЕРНАЯ УГРОЗА</string>
+    <string name="textCreateButton">СОЗДАТЬ ИГРУ</string>
+    <string name="textConnectButton">ПОДКЛЮЧИТЬСЯ К ИГРЕ</string>
+    <string name="textRulesButton">ПРАВИЛА ИГРЫ</string>
+    <string name="textOfflineModeButton">РЕЖИМ ОФЛАЙН</string>
+    <string name="textFeedbackButton">FEEDBACK</string>
+    <string name="textBeginStory">Начало истории</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="tab_text_1">Nick #1</string>
+    <string name="tab_text_2">Nick #2</string>
+    <string name="tab_text_3">Nick #3</string>
+    <string name="tab_text_4">Nick #4</string>
+    <string name="tab_text_5">Nick #5</string>
+    <string name="tab_text_6">Nick #6</string>
+    <string name="tab_text_7">Nick #7</string>
+    <string name="tab_text_8">Nick #8</string>
+</resources>

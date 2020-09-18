@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundScreen"
+    tools:context=".MainActivity"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/connectButton"
+        android:layout_marginVertical="@dimen/marginBottomLayout"
+        android:layout_marginStart="@dimen/marginStartLayout"
+        android:layout_marginEnd="@dimen/marginEndLayout"
+        android:layout_marginTop="@dimen/marginBottomLayout"
+        android:background="@drawable/darkbutton"
+        android:padding="@dimen/paddingDarkButton"
+        android:text="@string/textCreateButton"
+        android:textColor="@drawable/darkbutton_text_color"
+        android:textSize="@dimen/textSizeDarkButton"
+        android:fontFamily="@font/font_survivors_2" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rulesButton"
+        android:layout_marginVertical="@dimen/marginBottomLayout"
+        android:layout_marginStart="@dimen/marginStartLayout"
+        android:layout_marginEnd="@dimen/marginEndLayout"
+        android:background="@drawable/darkbutton"
+        android:padding="@dimen/paddingDarkButton"
+        android:text="@string/textConnectButton"
+        android:textColor="@drawable/darkbutton_text_color"
+        android:textSize="@dimen/textSizeDarkButton"
+        android:fontFamily="@font/font_survivors_2"
+        />
+
+    <Button
+        android:id="@+id/rulesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/marginBottomLayout"
+        android:layout_marginStart="@dimen/marginStartLayout"
+        android:layout_marginEnd="@dimen/marginEndLayout"
+        android:layout_centerInParent="true"
+        android:background="@drawable/darkbutton"
+        android:padding="@dimen/paddingDarkButton"
+        android:text="@string/textRulesButton"
+        android:textColor="@drawable/darkbutton_text_color"
+        android:textSize="@dimen/textSizeDarkButton"
+        android:fontFamily="@font/font_survivors_2"
+        />
+
+    <Button
+        android:id="@+id/offlineModeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rulesButton"
+        android:layout_marginVertical="@dimen/marginBottomLayout"
+        android:layout_marginStart="@dimen/marginStartLayout"
+        android:layout_marginEnd="@dimen/marginEndLayout"
+        android:background="@drawable/darkbutton"
+        android:padding="@dimen/paddingDarkButton"
+        android:text="@string/textOfflineModeButton"
+        android:textColor="@drawable/darkbutton_text_color"
+        android:textSize="@dimen/textSizeDarkButton"
+        android:fontFamily="@font/font_survivors_2"
+        />
+
+    <Button
+        android:id="@+id/feedbackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/offlineModeButton"
+        android:layout_marginVertical="@dimen/marginBottomLayout"
+        android:layout_marginStart="@dimen/marginStartLayout"
+        android:layout_marginEnd="@dimen/marginEndLayout"
+        android:background="@drawable/darkbutton"
+        android:padding="@dimen/paddingDarkButton"
+        android:text="@string/textFeedbackButton"
+        android:textColor="@drawable/darkbutton_text_color"
+        android:textSize="@dimen/textSizeDarkButton"
+        android:fontFamily="@font/font_survivors_2"
+        />
+
+
+</RelativeLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/colorBackgroundScreen"
+        app:itemTextColor="@color/colorTextPrimary"
+        app:menu="@menu/navigation_menu"
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+
+    <!--<include layout="@layout/layout_navigation_drawer"/>-->
+
+</androidx.drawerlayout.widget.DrawerLayout>
