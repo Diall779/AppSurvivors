@@ -68,13 +68,31 @@
 
 
     <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_menu"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         app:menu="@menu/navigation_menu"
+        app:itemTextColor="@color/colorTextPrimary"
+        app:itemIconPadding="16dp"
+        android:theme="@style/NavigationDrawerStyle"
         android:layout_gravity="start"
         android:background="@color/colorBackgroundScreen"
-        app:itemTextColor="@color/colorTextPrimary"
         android:layout_marginTop="?android:attr/actionBarSize"
+        app:headerLayout="@layout/header_navigation"
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/host_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:itemTextColor="@color/colorTextPrimary"
+        app:itemIconPadding="16dp"
+        android:theme="@style/NavigationDrawerStyle"
+        android:layout_gravity="end"
+        android:background="@color/colorBackgroundScreen"
+        app:headerLayout="@layout/fragment_hostpanel"
         >
 
     </com.google.android.material.navigation.NavigationView>

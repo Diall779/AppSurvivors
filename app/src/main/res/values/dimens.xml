@@ -3,6 +3,7 @@
     <dimen name="textSizeDarkButton">22sp</dimen>
     <dimen name="textSizePrimary">14sp</dimen>
     <dimen name="titleTextSize">22sp</dimen>
+    <dimen name="textSizeNavigationMenu">16sp</dimen>
     <dimen name="strokeWidthDarkButton">2dp</dimen>
     <dimen name="radiusCornersDarkButton">4dp</dimen>
     <dimen name="paddingDarkButton">4dp</dimen>

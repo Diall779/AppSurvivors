@@ -60,4 +60,25 @@
         <item name="android:textAlignment">center</item>
     </style>
 
+    <style name="NavigationDrawerStyle">
+
+        <item name="android:textSize">@dimen/textSizeNavigationMenu</item>
+        <item name="android:fontFamily">@font/font_survivors_2</item>
+
+        <!-- item size in menu-->
+        <item name="android:listPreferredItemHeightSmall">45dp</item>
+        <item name="listPreferredItemHeightSmall">45dp</item>
+
+        <!-- item padding left in menu-->
+        <item name="android:listPreferredItemPaddingLeft">0dp</item>
+        <item name="listPreferredItemPaddingLeft">0dp</item>
+
+        <!-- item padding right in menu-->
+        <item name="android:listPreferredItemPaddingRight">8dp</item>
+        <item name="listPreferredItemPaddingRight">8dp</item>
+        <item name="itemIconTint">@color/colorTextPrimary</item>
+
+
+    </style>
+
 </resources>

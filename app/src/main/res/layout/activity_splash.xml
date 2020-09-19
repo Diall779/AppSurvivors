@@ -34,14 +34,13 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="125dp"
+        android:layout_height="180dp"
         android:layout_alignParentBottom="true"
-        android:text="ВЫЖИТЬ ПОСЛЕ ТОГО, КАК ВЫЖИЛ..."
-        android:textColor="@color/colorTextPrimary"
         android:fontFamily="@font/font_survivors"
-        android:textSize="@dimen/titleTextSize"
-        android:textAlignment="center"
         android:gravity="center"
-        />
+        android:text="ВЫЖИТЬ ПОСЛЕ ТОГО, КАК ВЫЖИЛ..."
+        android:textAlignment="center"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="@dimen/titleTextSize" />
 
 </RelativeLayout>

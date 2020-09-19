@@ -18,6 +18,8 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.android.material.navigation.NavigationView;
+
 public class MainActivity extends AppCompatActivity {
 Button createButton;
 Button offlineModeButton;
@@ -30,6 +32,7 @@ TextView textHeader;
        /* getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);*/
 
         /*mDrawerLayout.setScrimColor(getResources().getColor(android.R.color.transparent));*/
+
         createButton = (Button) findViewById(R.id.createButton);
         offlineModeButton = (Button) findViewById(R.id.offlineModeButton);
         createButton.setOnClickListener(new View.OnClickListener() {

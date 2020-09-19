@@ -99,12 +99,16 @@
 
 
     <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_menu"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:background="@color/colorBackgroundScreen"
         app:itemTextColor="@color/colorTextPrimary"
         app:menu="@menu/navigation_menu"
+        app:itemIconPadding="16dp"
+        android:theme="@style/NavigationDrawerStyle"
+        app:headerLayout="@layout/header_navigation"
         >
 
     </com.google.android.material.navigation.NavigationView>
