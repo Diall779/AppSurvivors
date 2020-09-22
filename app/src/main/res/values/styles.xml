@@ -78,7 +78,14 @@
         <item name="listPreferredItemPaddingRight">8dp</item>
         <item name="itemIconTint">@color/colorTextPrimary</item>
 
+    </style>
 
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+        <item name="itemTextColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="itemTextColor">@color/colorTextPrimary</item>
     </style>
 
 </resources>

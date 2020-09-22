@@ -7,11 +7,15 @@
     android:layout_height="match_parent"
     android:background="@color/colorBackgroundScreen"
     tools:context=".MainActivity"
+    android:clickable="true"
+    android:focusable="true"
     >
 
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
     >
 
     <Button
@@ -93,6 +97,39 @@
         android:textSize="@dimen/textSizeDarkButton"
         android:fontFamily="@font/font_survivors_2"
         />
+
+    <TextView
+        android:id="@+id/textChangeCharacteristic"
+        android:layout_above="@+id/spinnerCharacteristic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="ИЗМЕНИТЬ ХАРАКТЕРИСТИКУ"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="18sp"
+        android:fontFamily="@font/font_survivors_2"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+         />
+
+    <Spinner
+        android:id="@+id/spinnerCharacteristic"
+        style="@style/Widget.AppCompat.Spinner"
+        android:layout_above="@+id/createButton"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/spinner_bg"
+        android:dropDownWidth="wrap_content"
+        android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+        android:paddingRight="14dp"
+        android:popupElevation="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </RelativeLayout>

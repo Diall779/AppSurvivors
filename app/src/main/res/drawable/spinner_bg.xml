@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:exitFadeDuration="@android:integer/config_mediumAnimTime">
+
+    <item>
+        <inset android:insetLeft="-1dp" android:insetRight="-1dp">
+            <shape android:shape="rectangle">
+                <corners android:radius="4dp">
+                </corners>
+                <stroke android:width="2dp"
+                    android:color="@color/colorStrokeSpinner" />
+                <solid android:color="@color/colorBackgroundScreen" />
+            </shape>
+        </inset>
+    </item>
+</selector>

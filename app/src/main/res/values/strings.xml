@@ -18,4 +18,15 @@
     <string name="tab_text_6">Nick #6</string>
     <string name="tab_text_7">Nick #7</string>
     <string name="tab_text_8">Nick #8</string>
+    <string-array name="characteristics">
+        <item>ПРОФЕССИЯ</item>
+        <item>ПОЛ, ВОЗРАСТ</item>
+        <item>ТЕЛОСЛОЖЕНИЕ</item>
+        <item>ЗДОРОВЬЕ</item>
+        <item>ХОББИ</item>
+        <item>ФОБИЯ</item>
+        <item>МАЛЫЙ БАГАЖ</item>
+        <item>БОЛЬШОЙ БАГАЖ</item>
+        <item>ДОП. ИНФОРМАЦИЯ</item>
+    </string-array>
 </resources>

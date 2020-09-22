@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.google.android.material.appbar.AppBarLayout
+         <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/appBarLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -87,12 +87,9 @@
         android:id="@+id/host_panel"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:itemTextColor="@color/colorTextPrimary"
-        app:itemIconPadding="16dp"
-        android:theme="@style/NavigationDrawerStyle"
-        android:layout_gravity="end"
         android:background="@color/colorBackgroundScreen"
-        app:headerLayout="@layout/fragment_hostpanel"
+        android:layout_gravity="end"
+        app:headerLayout="@layout/fragment_panel"
         >
 
     </com.google.android.material.navigation.NavigationView>
